@@ -45,8 +45,8 @@ The JSON requires a 'header' array which contains ALL the table column heading n
 If set to false, the THEAD of the table will be hidden and column headings won't be displayed.
 
 #####Replace blank values (default blank):
-By default, for any data objects that don't have all the headers listed it will display no value in the table cell. 
-Set this to a value to show instead of the blank value.  For example setting it to - will show a - in place of any blank values.
+By default any data objects that don't list all the headers it will display an empty table cell. 
+Set this to whatever value you want to show instead of an empty cell. 
 
 #####Value (requires a JSON array):
 This should point to the JSON object, for example: datasources["DrinkData"]
