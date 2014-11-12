@@ -20,23 +20,23 @@ The JSON requires a 'header' array which contains ALL the table column heading n
 #####Example JSON
 ```
 {
-		"header": [
-			"Drink",
-			"Taste",
-			"Rating"
-		],
-		"data": [
-			{
-				"Drink" : "Beer",
-				"Taste" : "Awesome"
-			},
-			{
-				"Drink" : "Vodka",
-				"Taste" : "Bland",
-				"Rating" : "8"
-			}			
-		]
-	}
+	"header": [
+		"Drink",
+		"Taste",
+		"Rating"
+	],
+	"data": [
+		{
+			"Drink" : "Beer",
+			"Taste" : "Awesome"
+		},
+		{
+			"Drink" : "Vodka",
+			"Taste" : "Bland",
+			"Rating" : "8"
+		}			
+	]
+}
 ```
 
 ######Widget Settings
