@@ -5,10 +5,10 @@
 	freeboard.addStyle('table.list-table td, table.list-table th', "padding: 2px 2px 2px 2px; vertical-align: top; ");
 	
 	var tableWidget = function (settings) {
-        var self = this;
-        var titleElement = $('<h2 class="section-title"></h2>');
-        var stateElement = $('<div><table class="list-table"><thead/></table></div>');
-        var currentSettings = settings;
+	        var self = this;
+	        var titleElement = $('<h2 class="section-title"></h2>');
+	        var stateElement = $('<div><table class="list-table"><thead/></table></div>');
+	        var currentSettings = settings;
 		//store our calculated values in an object
 		var stateObject = {};
         
