@@ -49,5 +49,4 @@ By default, for any data objects that don't have all the headers listed it will 
 Set this to a value to show instead of the blank value.  For example setting it to - will show a - in place of any blank values.
 
 #####Value (requires a JSON array):
-This should point to the JSON object
-Example: datasources["DrinkData"]
+This should point to the JSON object, for example: datasources["DrinkData"]
