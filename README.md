@@ -3,6 +3,8 @@ Freeboard Table Widget Plugin
 
 This is a widget plugin for http://freeboard.io that shows JSON data in a table.
 
+![preview](https://github.com/daleroy1/freeboard-table/blob/master/widget.table.preview.png)
+
 ##### Requirements
 
 This plugin uses a dynamic height which requires a change to be made to the WidgetModel. Modify the processCalculatedSetting() function and add after the following line: 
@@ -40,6 +42,8 @@ The JSON requires a 'header' array which contains ALL the table column heading n
 ```
 
 ######Widget Settings
+
+![settings](https://github.com/daleroy1/freeboard-table/blob/master/widget.table.settings.png)
 
 #####Show Headers (default true):
 If set to false, the THEAD of the table will be hidden and column headings won't be displayed.
