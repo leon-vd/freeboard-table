@@ -5,7 +5,7 @@ This is a widget plugin for http://freeboard.io that shows JSON data in a table.
 
 ##### Requirements
 
-This plugin uses a dynamic height, so a change needs to be made to the WidgetModel. Modify the processCalculatedSetting() function and add after the following line: 
+This plugin uses a dynamic height which requires a change to be made to the WidgetModel. Modify the processCalculatedSetting() function and add after the following line: 
 ##### processCalculatedSetting()
 ```
 self.widgetInstance.onCalculatedValueChanged(settingName, returnValue);
