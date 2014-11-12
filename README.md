@@ -49,5 +49,5 @@ Non mandatory field.  For any data objects that don't have all the headers liste
 Set this to a value to show instead (eg setting it to - will show a - instead of any blank value).
 
 #####Value (requires a JSON array):
-This is the actual JSON as listed above and needs to be in that structure
+This should point to the JSON object
 Example: datasources["DrinkData"]
